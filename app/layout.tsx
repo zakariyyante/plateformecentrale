@@ -23,8 +23,13 @@ export const metadata: Metadata = {
   title: "Plateforme Centrale | Guide des Meilleures Plateformes en France",
   description: "Découvrez les meilleures plateformes sélectionnées et notées par nos experts en France. Bonus exclusifs et revues détaillées.",
   icons: {
-    icon: '/favicon.png',
-    apple: '/favicon.png',
+    icon: [
+      { url: '/favicon.png', type: 'image/png' },
+      { url: '/icon.png', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/favicon.png', type: 'image/png' },
+    ],
   },
 };
 
@@ -36,6 +41,8 @@ export default function RootLayout({
   return (
     <html lang="fr" className="scroll-smooth">
       <head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
         <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
