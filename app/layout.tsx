@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   title: "Plateforme Centrale | Guide des Meilleures Plateformes en France",
   description: "Découvrez les meilleures plateformes sélectionnées et notées par nos experts en France. Bonus exclusifs et revues détaillées.",
   icons: {
-    icon: '/favicon_new.png',
-    apple: '/favicon_new.png',
+    icon: '/favicon.png',
+    apple: '/favicon.png',
   },
 };
 

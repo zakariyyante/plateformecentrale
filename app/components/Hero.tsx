@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
           {/* Logo Watermark */}
           <div className="absolute inset-0 flex items-center justify-center opacity-[0.03] pointer-events-none select-none overflow-hidden">
              <div className="relative w-[800px] h-[800px] rotate-12 translate-x-1/4">
-               <Image src="/logo_new.png" alt="" fill className="object-contain grayscale" />
+               <Image src="/logo.png" alt="" fill className="object-contain grayscale" />
              </div>
           </div>
 

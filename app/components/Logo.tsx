@@ -6,7 +6,7 @@ export const Logo: React.FC<{ className?: string; type?: 'full' | 'icon' }> = ({
     return (
       <div className={`relative w-10 h-10 ${className}`}>
         <Image 
-          src="/logo_new.png" 
+          src="/logo.png" 
           alt="Plateforme Centrale Icon" 
           fill 
           className="object-contain"
@@ -18,7 +18,7 @@ export const Logo: React.FC<{ className?: string; type?: 'full' | 'icon' }> = ({
   return (
     <div className={`relative h-16 w-64 ${className}`}>
       <Image 
-        src="/logo_new.png" 
+        src="/logo.png" 
         alt="Plateforme Centrale Logo" 
         fill 
         className="object-contain object-left"
