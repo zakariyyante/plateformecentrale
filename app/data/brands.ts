@@ -16,7 +16,7 @@ export const brands: Brand[] = [
     logo: "/brands/bwin_dark.png",
     rating: 9.9,
     bonus: "VOTRE MISE REMBOURSÉE JUSQU'À 100€",
-    url: "https://track.bwin.com/visit?clickid=",
+    url: "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2159573&clickid=",
     isMobile: true,
     votes: 4852,
   }
